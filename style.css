@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+.hero {
+    display: flex;
+    justify-content: flex-end;  
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.hero img {
+    position: relative;
+    max-width: 1024px;
+}
+h1 {
+    font-weight: bold;
+}
+.navbar-toggler {
+    background-color: #191414;
+
+}
+.navbar-brand{
+    color: #000;
+}
+.navbar .nav-link.active {
+    color: #fff;
+}
+.navbar .nav-link {
+    color: #fff;
+}
+span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b80000 ;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.main_content {
+    position: relative;
+    background-color: #191414;
+    top: 40rem;
+    z-index: 2;
+}
+.music-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-by p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #a7a5a5;
+}
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.aboutMe-container {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    z-index: 3;
+}
+.aboutMe {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+.aboutMe h2 {
+    padding-left: 2rem;
+}
+.aboutMe p {
+    padding-left: 2rem;
+    width: 90%;
+    margin-top: 4rem;
+    font-size: 18px;
+}
+.aboutMe img {
+    width: 480px;
+    height: 100%;
+}
+.events {
+    padding-top: 4rem;
+}
+.contato-container {
+    display: flex;
+    background-color: #E8E8ED;
+    border-radius: 2rem;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;    
+    padding: 1rem;
+    color: #191414;
+    line-height: 1.2;
+}
+.contato-container span {
+    color: #b80000;
+}
+.contato-container h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.form {
+    display: inline-block;
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    display: block;
+    width: 100%;
+}
+
+.form label {
+    color: #191414;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    color: #191414;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.5s;
+}
+
+.form textarea {
+    min-height: 13rem;
+    resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+    outline: none;
+    border-color: #191414;
+    box-shadow: 0 0 0 1px #191414;
+}
+
+.form button {
+    display: block;
+    padding: 1rem;
+    background-color: #191414;
+    color: #fff;
+    font:inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.footer-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    height: 2rem;
+    background-color: #191414;
+}
+
+@media (max-width: 500px) {
+    .hero img {
+       width: 100%;
+       height: auto;
+    }
+    .main_content {
+        top: 19rem;
+    }
+    .music-content {
+        flex-direction: column;
+    }
+    .aboutMe {
+        flex-direction: column;
+    }
+    .aboutMe p {
+        font-size: 16px;
+        margin-top: 2rem;
+    }
+    .aboutMe img {
+        width: 100%;
+    }
+    .events {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    .events p {
+        width: 95%;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    span {
+        font-size: 18px;
+    }   
+    .contato-container {
+        width: 90%;
+        border-radius: 1rem;
+    }
+    .contato-container h2 {
+        font-size: 18px;
+    }
+    .form textarea {
+        width: 95%;
+        margin-left: 0.5rem;
+    }
+    .form button {
+        width: 95%;
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Images/icon/Logo.ico" type="image/x-icon">
+    <title>Jefferson Sena</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  window.addEventListener('scroll', function() {
+      const hero = document.querySelector('.hero');
+      const heroHeight = hero.offsetHeight;
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      // Calcula a opacidade baseada na quantidade de scroll
+      let opacity = 1 - (scrollTop / heroHeight);
+      if (opacity < 0) opacity = 0;
+      hero.style.opacity = opacity;
+      AOS.init();
+  });
+  </script>
+<body>
+    <header>
+      <section class="hero">
+        <div>
+          <img src="./arquivos/src/images/hero.png" alt="Portrait">
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="main_content">
+        <div class="navbar">
+            <nav class="navbar navbar-expand-lg container-md">
+              <div class="container-fluid">
+                <h1>Jefferson Sena</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#music">Músicas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutMe">Sobre mim </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#events">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+       
+        <section>
+          <div class="content container-md fd-column pt-5">
+            <div id="music" class="music container-md">
+              <h2 class="pb-4" data-aos="zoom-in"><span>Músicas.</span>  Uma seleção de covers feitos por mim.</h2>  
+              <!-- 1 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>    
+              <!-- 3 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>    
+              <!-- 4 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>    
+              <!-- 5 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>    
+              <!-- 6 -->
+              <div class="music-content" data-aos="zoom-in">
+                <div class="music-tittle">
+                  <h3 id="musicTitle" class="pb-4">Not Today</h3>
+                </div>
+                <div class="music-by">
+                  <p>Imagine Dragons</p>
+                </div>
+                <div class="music-demo">
+                  <audio class="pb-4 music-player" controls src="./Musicas/Countingmyblessings.m4a"></audio>
+                </div>
+              </div>        
+            </div>
+        </section>
+        
+        <section class="aboutMe-container mt-4">
+            <div id="aboutMe" class="aboutMe">
+              <div class="mt-4">
+                <h2 data-aos="fade-right"><span>Sobre mim.</span> permita me apresentar.</h2>
+                <p data-aos="fade-right">Meu nome é Jefferson Alexandre de Sena, ou apenas Jeff para os mais próximos, e Jefferson Sena em contextos formais. A música sempre foi uma paixão constante em minha vida; desde minha infância, quando comecei a explorar o canto, ela tem sido minha companheira. À medida que envelheci, comecei a levar essa arte mais a sério, transformando-a de um simples interesse em uma verdadeira vocação.
+                <br>
+                <br>
+                Agora, aos 26 anos, decidi enfrentar meus medos e explorar meu talento de maneira mais significativa. Apósreceber vários incentivos, optei por fazer da música minha profissão, não apenas mantendo-a como meu hobbyfavorito. Foram necessários muitos anos para me sentir verdadeiramente pronto para me apresentar em público.
+                <br>
+                <br>
+                Agora, é com grande entusiasmo que desejo ser uma presença inesquecível no dia de seu casamento, esperando comminha voz tocar profundamente os corações de todos os presentes — especialmente o seu. </p>
+              </div>
+              <div>
+                <img data-aos="fade-left" src="./arquivos/src/images/myself.png" alt="profile">
+              </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up" id="events" class="events container-md ">
+          <h2 class="pb-4"><span>Eventos.</span> Como tudo acontece.</h2>
+          <div>
+            <h3>Passo um: O briefing.</h3>
+            <p class="pb-4">O primeiro contato é muito importante para entender às suas expectativas, como casal. <br>
+              Quais as expectativas para a cerimônia, qual a música tema do casal, o estilo do arranjo para música de entrada do noivo, dos padrinhos e da noiva.
+            </p>
+          </div>
+          <div>
+            <h3>Passo Dois: O processo de criação.</h3>
+            <p class="pb-4">O segundo passo é onde o processo criativo acontece. Criação e produção de audio.
+            </p>
+          </div>
+          <div>
+            <h3>Passo três: a private session.</h3>
+            <p class="pb-4"> É aqui que faço uma apresentação privada para os noivos ouvirem ao vivo as músicas criadas.
+            </p>
+          </div>
+          <div>
+            <h3>Passo quatro: o grande dia.</h3>
+            <p class="pb-4">O dia em que apresentamos na cerimônia de casamento tudo que foi criado</p>
+          </div>
+        </section>
+        <section data-aos="fade-up" id="contato" class="contato-container container-md pt-4">
+            <h2 class="pb-4"><span>Contato.</span> Aqui é onde tudo começa.</h2>
+            <form class="form" action="https://formsubmit.co/jeffersonsena.jw@gmail.com" target="_blank" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label for="name">Nome do Casal</label>
+                  <input type="text" name="name" id="name" required>
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" required>
+                  <label for="number">WhatsApp</label>
+                  <input type="tel" name="number" id="number">
+                </div>
+                <div class="col-lg-6">
+                  <label for="date">Data</label>
+                  <input type="date" name="date" id="data">
+                  <label for="local">Local e Cidade</label>
+                  <input type="text" name="local" id="local">
+                </div>
+                <label for="message">Me conte mais sobre seu grande dia</label>
+                <textarea name="message"></textarea>
+                  <button type="submit">Enviar</button>
+              </div>
+           </form>
+        </section>
+        <section class="footer-container">
+         </section>
+      </section>  
+    </main>
+
+  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</html>
